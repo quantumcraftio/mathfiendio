@@ -1,0 +1,42 @@
+.header {
+  height: 5vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  border-color: #23ffa1;
+  border-width: 2px;
+  height: 6vh;
+  align-self: flex-start;
+  margin-left: 2vh;
+  margin-top: 4vh;
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+.header-button {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.button-row {
+  display: flex;
+  margin-right: 10px;
+}
